@@ -1,7 +1,6 @@
 from dotenv import load_dotenv
 import streamlit as st
 from langchain_groq import ChatGroq
-from langgraph_sdk._sync import assistants
 
 load_dotenv(".env")
 
